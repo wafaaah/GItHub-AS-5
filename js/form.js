@@ -8,7 +8,7 @@ signin_btn.addEventListener("click", (e) => {
     if(!userValue || !passValue){
         alert("Please provide username and password");
     } else if(userValue === "admin" && passValue === "admin123"){
-        window.location.href = "./index.html";
+        window.location.href = "./home.html";
     }else {
         alert("Invalid username and password ");
     }
